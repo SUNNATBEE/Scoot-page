@@ -1,11 +1,43 @@
 /* ROOT */
 :root{
-    /* --main-font-family: "Roboto", "Arial", sans-serif; */
-    /* --main-regular-font-weight: 400; */
-    /* --main-body-bg-color: #fff; */
-    /* --main-text-color: #333; */
+    --main-font-family: "Space mono", "Courier New", monospace;
+    --mai-font-family-second: "Lexend Deca", "Arial", sans-serif;
+    --main--font-weight: 700;
+    --main-body-bg-color: #fff;
+    --main-text-color: #939CAA;
+    --main-p-color:#495567;
+    --main-font-size:15px;
 }
-
+/* space-mono-regular - latin */
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+       url("../fonts/space-mono-v11-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/space-mono-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: 
+       url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/space-mono-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: 
+       url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *{
     box-sizing: border-box;
 }
@@ -30,13 +62,10 @@ body{
 }
 
 .container{
-    /* max-width: 1340px; */
+    max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
-
-
 .site-main{
     flex-grow: 1;
 }
