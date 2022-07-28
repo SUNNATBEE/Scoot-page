@@ -124,3 +124,56 @@ body{
     border: 3px solid #fcb72b;
 }
 /* Finish site header  */
+
+/* Start hero section  */
+.hero {
+    width: 100%;
+    background-image: url(../images/main-hero-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__box {
+    width: 500px;
+}
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 153px;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--main-body-bg-color);
+}
+.hero__text {
+    margin-bottom: 40px;
+    font-family: var(--mai-font-family-second);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-body-bg-color);
+}
+.hero__text::before {
+    border-top: 15px solid #fcb72b;
+}
+.hero__link {
+    display: inline-block;
+    margin-bottom: 153px;
+    padding: 14px 39px;
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid transparent;
+    color: var(--main-body-bg-color);
+    background-color: #fcb72b;
+}
+.hero__link:hover {
+    color: #fcb72b;
+    background-color: transparent;
+    border: 3px solid #fcb72b;
+}
+/* Finish hero section  */
