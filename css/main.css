@@ -226,6 +226,7 @@ body{
 }
 .visually-hidden {
     clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -246,8 +247,14 @@ body{
 .deliver__list {
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     list-style: none;
 }
@@ -257,17 +264,15 @@ body{
 .deliver__heading {
     margin: 0;
     margin-bottom: 27px;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
+    font-family:  var(--main-font-family);
+    font-weight: var(--main--font-weight);
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -1.07143px;
     color: var(--main-p-color);
 }
 .deliver__text {
-    font-family: 'Lexend Deca';
-    font-style: normal;
+    font-family: var(--mai-font-family-second);
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
