@@ -127,51 +127,89 @@ body{
 
 /* Start hero section  */
 .hero {
-    width: 100%;
-    background-image: url(../images/main-hero-bg-img.jpg);
-    background-repeat: no-repeat;
+    position: relative;
+    padding: 153px 0;
+    background-image: url("../images/main-hero-bg-img.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+ .hero__heading {
+    margin: 0;
+}
+.hero::after {
+    position: absolute;
+    right: calc(50% - 805px);
+    bottom: calc(50% - 145px);
+    width: 234px;
+    height: 63px;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../images/oval.svg");
 }
 .hero__box {
+    position: relative;
     width: 500px;
 }
-.hero__title {
-    margin-top: 0;
+.hero__box::after {
+    position: absolute;
+    top: calc(50% + 9px);
+    right: calc(50% - 737px);
+    width: 452px;
+    height: 151px;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../images/line-yellov.svg");
+}
+.hero__box::after {
+    display: none;
+}
+.hero__heading {
+    margin: 0;
     margin-bottom: 40px;
-    padding-top: 153px;
-    font-family: var(--main-font-family);
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -2.5px;
-    color: var(--main-body-bg-color);
+    color:  var(--main-body-bg-color);
+    font-family: var(--main--font-weight);
 }
 .hero__text {
+    position: relative;
+    margin: 0;
+    margin-left: 95px;
     margin-bottom: 40px;
-    font-family: var(--mai-font-family-second);
+    font-family: var(--main--font-weight);
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     color: var(--main-body-bg-color);
 }
 .hero__text::before {
-    border-top: 15px solid #fcb72b;
+    position: absolute;
+    top: calc(50% - 16px);
+    left: calc(50% - 462px);
+    width: 465px;
+    height: 151px;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../images/yellov-line.svg");
 }
-.hero__link {
+.site-link {
     display: inline-block;
-    margin-bottom: 153px;
+    margin-left: 95px;
     padding: 14px 39px;
-    font-family: var(--main-font-family);
+    font-family: var(--main--font-weight);
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    text-decoration: none;
-    border: 3px solid transparent;
-    color: var(--main-body-bg-color);
     background-color: #fcb72b;
+    color: var(--main-body-bg-color);
+    border: 3px solid transparent;
+    transition: 00.3s;
 }
-.hero__link:hover {
+.site-link:hover {
     color: #fcb72b;
     background-color: transparent;
     border: 3px solid #fcb72b;
