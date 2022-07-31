@@ -5,35 +5,352 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scoot</title>
-     
+    
     <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    
     <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
-
+    
     <!-- Header start -->
-    <header class="site-header">
-
+    <header class="header-about">
+        <div class="container">
+            <div class="header-about__info">
+                <div class="header-about__inner" >
+                    <a  class="header-about__logo" href="./index.html"><img src="./images/scoot.svg" alt="logo"></a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a class="navigation__link"  href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    Location
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <a class="scoot-login" href="#">Get Scootin</a>
+            </div>
+        </div>
+        
     </header>
+    
     <!-- Header finish -->
-
+    
     <!-- Main start -->
     <main class="site-main">
-        <!-- Hero section start  -->
-        <section class="hero-section">
+
+        <!-- About section start  -->
+        <section class="about">
+            <div class="container">
+                <div class="about__box">
+                    <h1 class="about__title">
+                        About
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <!-- About section finish  -->
+
+        <!-- Mobiles section start  -->
+        <section class="mobiles">
+            <div class="container">
+                <ul class="mobiles__list">
+                    <li class="mobiles__item">
+                        <img  class="mobiles__img" src="./images/phone-with-girl.jpg" 
+                        width="445"
+                        height="445"
+                        srcset="./images/phone-with-girl.jpg 1x , ./images/phone-with-girl@2x 2x"
+                        alt="phone with girl">
+                        <div class="mobiles__box">
+                            <h2 class="mobiles__heading">
+                                Mobility for the digital era
+                            </h2>
+                            <p class="mobiles__text">
+                                Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to
+                                scooters at your fingertips.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="mobiles__item">
+                        <div class="mobiles__box">
+                            <h2 class="mobiles__heading">
+                            Better urban living
+                            </h2>
+                            <p class="mobiles__text">
+                            We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the
+                            minimal carbon footprint for each ride.
+                            </p>
+                        </div>
+                        <img class="mobiles__img" src="./images/train.png" 
+                        width="445" height="445"
+                        srcset="./images/train.png 1x , ./images/train@2x.png 2x" alt="phone with girl">
+                    </li>
+                </ul>
+            </div>
+        </section>
+            <!-- Mobiles section finish  -->
+
+            <!-- Values section start  -->
+
+
+        <section class="values">
+            <div class="container">
+                <h2 class="values__title">
+                    Our values
+                </h2>
+                <ul class="values__list">
+                    <li class="values__item">
+                        <img  class="values__img" src="./images/phone.png" 
+                        srcset="./images/phone.png 1x , ./images/phone@2x.png 2x"
+                        alt="phone">
+                        <span class="value__info">
+                            Our tech
+                        </span>
+                        <p class="value__text">
+                            We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a
+                            joy to ride!
+                        </p>
+                    </li>
+                    <li class="values__item">
+                        <img class="values__img" src="./images/mini-bg-moto.png" srcset="./images/mini-bg-moto.png 1x , ./images/mini-bg-moto@2x.png 2x"
+                            alt="phone">
+                        <span class="value__info">
+                        Our integrity
+                        </span>
+                        <p class="value__text">
+                        We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.
+                        </p>
+                    </li>
+                    <li class="values__item">
+                        <img class="values__img" src="./images/people.png" srcset="./images/people.png 1x , ./images/people@2x.png 2x"
+                            alt="phone">
+                        <span class="value__info">
+                        Our community
+                        </span>
+                        <p class="value__text">
+                        We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+            <!-- Values section finish  -->
+
+            <!-- Apps section start -->
+
+        <section class="apps">
+            <div class="container">
+                <h2 class="apps__title">
+                    FAQs
+                </h2>
+                <div class="apps__box">
+                    <h3 class="apps__heading">
+                        How it works
+                    </h3>
+                    <ul class="apps__list">
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                    How do I download the app?
+                                </summary>
+                                <p class="apps__text" >
+                                    To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it
+                                    would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.
+                                </p>
+                            </details>
+                        </li>
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                    Can I find a nearby Scoots?
+                                </summary>
+                                <p class="apps__text">
+                                    To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler
+                                    way to do it
+                                    would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct
+                                    page.
+                                </p>
+                            </details>
+                        </li>
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                    Do I need a license to ride?
+                                </summary>
+                                <p class="apps__text">
+                                    To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler
+                                    way to do it
+                                    would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct
+                                    page.
+                                </p>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+                <div class="apps__box  apps__safe-driving">
+                    <h3 class="apps__heading">
+                    Safe driving
+                    </h3>
+                    <ul class="apps__list">
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                Should I wear a helmet?
+                                </summary>
+                                <p class="apps__text">
+                                    Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet
+                                    regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.
+                                </p>
+                            </details>
+                        </li>
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                How about the rules regulations?
+                                </summary>
+                                <p class="apps__text">
+                                    Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet
+                                    regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.
+                                </p>
+                            </details>
+                        </li>
+                        <li class="apps__item">
+                            <details class="apps__detaiels">
+                                <summary class="apps__summary-title ">
+                                What if I damage my Scoot?
+                                </summary>
+                                <p class="apps__text">
+                                    Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet
+                                    regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.
+                                </p>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
         </section>
-        <!-- Hero section finish  -->
+            
+            <!-- Apps section finish -->
+             
+            <!-- Company section start  -->
 
+        <section class="company">
+            <div class="container">
+                <div class="company__info">
+                    <h2 class="company__title">
+                        Sign up and <br> Scoot off today
+                    </h2>
+                    <ul class="company__list">
+                        <li class="company__item">
+                            <a class="company__link" href="https://www.apple.com/app-store/" target="blank">
+                                <img src="./images/apple-logo.svg" alt="app store">
+                                <div class="company__box">
+                                    <span class="company__store-heading">
+                                    Available on the
+                                    </span>
+                                    <span class="company__text">
+                                    AppStore
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="company__item">
+                            <a class="company__link" href="https://play.google.com/store/games?hl=ru&gl=US" target="blank">
+                                <img src="./images/google-play.svg"  alt="GooglePlay">
+                                <div class="company__box">
+                                    <span class="company__store-heading">
+                                    Get it on
+                                    </span>
+                                    <span class="company__text">
+                                GooglePlay
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>    
+
+            <!-- Company section finish -->
     </main>
     <!-- Main finish  -->
-
+    
     <!-- Footer start -->
     <footer class="site-footer">
-
+        <div class="container">
+            <div class="header-about__info">
+                <div class="header-about__inner">
+                    <a class="footer__logo" href="./index.html"><img src="./images/scoot2.svg" alt="logo"></a>
+                    <nav class="navigation">
+                        <ul class="navigation__list">
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    Location
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a class="navigation__link" href="#">
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+               <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="https://www.facebook.com/" target="blank">
+                        <svg width="20" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://www.twitter.com/" target="blank">
+                        <svg width="21" height="18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.667 2.797a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.804-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 14.513.873c-2.649 0-4.595 2.472-3.997 5.038a11.648 11.648 0 0 1-8.457-4.287 4.109 4.109 0 0 0 1.27 5.478A4.086 4.086 0 0 1 1.47 6.59c-.045 1.901 1.317 3.68 3.29 4.075a4.111 4.111 0 0 1-1.853.07 4.106 4.106 0 0 0 3.834 2.85 8.25 8.25 0 0 1-6.075 1.7 11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.922-6.434 11.662-12.205a8.353 8.353 0 0 0 2.048-2.125Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="https://www.instagram.com/" target="blank">
+                        <svg width="21" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M10.333 0C7.618 0 7.278.012 6.211.06 2.579.227.56 2.242.394 5.877.345 6.944.334 7.284.334 10s.011 3.057.06 4.123c.166 3.632 2.181 5.65 5.816 5.817 1.068.048 1.408.06 4.123.06 2.716 0 3.057-.012 4.124-.06 3.628-.167 5.651-2.182 5.816-5.817.049-1.066.06-1.407.06-4.123s-.011-3.056-.06-4.122C20.11 2.249 18.093.228 14.457.06 13.39.01 13.05 0 10.334 0Zm0 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.976 1.409 4.1 4.099.047 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.058 4.042-.124 2.687-1.387 3.975-4.099 4.099-1.055.048-1.37.058-4.042.058-2.67 0-2.986-.01-4.04-.058-2.717-.124-3.976-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.125-2.69 1.387-3.977 4.1-4.1 1.055-.048 1.37-.058 4.04-.058ZM5.198 10a5.135 5.135 0 1 1 10.27 0 5.135 5.135 0 0 1-10.27 0Zm5.135 3.333a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666Zm4.138-8.67a1.2 1.2 0 1 1 2.4 0 1.2 1.2 0 0 1-2.4 0Z"
+                                fill="currentColor" />
+                        </svg>
+                    </a>
+                </li>
+               </ul>
+                
+            </div>
+        </div>
     </footer>
     <!-- Footer finish -->
 </body>
