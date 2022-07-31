@@ -59,7 +59,6 @@ body{
     font-family: var(--main-font-family);
     font-weight: 400;
     background-color: var(--main-body-bg-color);
-    overflow-x: hidden;
 }
 
 .container{
@@ -152,9 +151,9 @@ body{
     position: relative;
     width: 500px;
 }
-.hero__text::after {
+.hero__box::after {
     position: absolute;
-    top: calc(50% + -15px);
+    top: calc(50% + 9px);
     right: calc(50% - 737px);
     width: 452px;
     height: 151px;
@@ -205,7 +204,6 @@ body{
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    text-decoration: none;
     background-color: #fcb72b;
     color: var(--main-body-bg-color);
     border: 3px solid transparent;
@@ -217,3 +215,78 @@ body{
     border: 3px solid #fcb72b;
 }
 /* Finish hero section  */
+
+/* deliver SECTION START  */
+.deliver {
+    position: relative;
+    padding: 160px 0 100px 0;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.deliver::before {
+    position: absolute;
+    top: calc(50% - 70px);
+    right: calc(50% - 210px);
+    z-index: -1;
+    content: "";
+    background-image: url("../images/gray-line.svg");
+    width: 974px;
+    height: 15px;
+}
+.deliver__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.deliver__item {
+    width: 350px;
+}
+.deliver__heading {
+    margin: 0;
+    margin-bottom: 27px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: var(--main-p-color);
+}
+.deliver__text {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+}
+.deliver__item::before {
+    content: "";
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+}
+.deliver__item--tel::before {
+    background-image: url("../images/app-img.svg");
+}
+.deliver__item--scoot {
+    background-image: url("../images/scooter-img.svg");
+    background-repeat: no-repeat;
+}
+.deliver__item--speed {
+    background-image: url("../images/ride-img.svg");
+    background-repeat: no-repeat;
+}
+/* deliver SECTION finish */
