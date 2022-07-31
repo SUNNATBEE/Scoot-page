@@ -153,7 +153,7 @@ body{
 }
 .hero__box::after {
     position: absolute;
-    top: calc(50% + 16px);
+    top: calc(50% + 10px);
     right: calc(50% - 737px);
     width: 452px;
     height: 151px;
@@ -161,7 +161,7 @@ body{
     background-repeat: no-repeat;
     background-image: url("../images/line-yellov.svg");
 }
-.hero__box::after {
+.hero__text::after {
     display: none;
 }
 .hero__heading {
