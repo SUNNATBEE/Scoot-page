@@ -204,9 +204,12 @@ body{
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+    text-decoration: none;
     background-color: #fcb72b;
     color: var(--main-body-bg-color);
     border: 3px solid transparent;
+    -webkit-transition: 00.3s;
+    -o-transition: 00.3s;
     transition: 00.3s;
 }
 .site-link:hover {
